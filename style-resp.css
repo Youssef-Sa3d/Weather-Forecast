@@ -53,10 +53,10 @@
 }
 
 
-@media screen and (max-width: 375px ) {
+@media screen and (max-width: 320px ) {
 
     .logo p {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .add , .cbtn {
