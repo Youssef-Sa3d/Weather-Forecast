@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="Targaryen icon" href="cloud favicon.png" type="image/x-icon" sizes="any">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Josefin+Sans:wght@300;600&family=Libre+Baskerville:wght@700&family=Rubik:wght@300&family=Russo+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <section class="landing">
+        <div>
+            <h1 id="cityname"></h1>
+            <h1 >Weather</h1>
+            <h1 id="landing_txt2">Forecast</h1>
+        </div>
+
+
+        <div class="search">
+            <input placeholder="Where it will rain ?" type="txtsrch" class="txtsrch" id="txtsrch">
+            <button type="submit" class="sbmtsrch" onclick="citysrch()">Go</button>
+        </div>
+    </section> -->
+
+
+
+
+    <section class="main">
+
+
+
+        <section class="left">
+            <div class="logo">
+                <p>Weather</p>
+                <p class="forc-logo">Forecast</p>
+            </div>
+
+
+            <ul class="cities">
+                <il class="add-cont">
+                    <button type="button" class="add" onclick="add()">
+                        <h1 class="plus">+</h1>
+                    </button>
+
+                    <div class="add-box">
+                        <input type="text" name="txtadd" id="txtadd" class="txtadd" placeholder="Add the city">
+                        <button type="button" class="addbtn" onclick="add_cont()">Add</button>
+                    </div>
+                </il>
+                <il class="city">
+                    <button type="button" class="cbtn" onclick="maincity()"></button>
+                    <p class="cp" id="mycity-card">suiii</p>
+                </il>
+                
+
+                
+            </ul>
+
+            <section class="details">
+                <div class="element">
+                    <p class="txt" id="min-max">Temp</p>
+                </div>
+                <div class="element">
+                    <p class="txt" id="weather">Weather</p>
+                </div>
+                <div class="element">
+                    <p class="txt" id="winddeg">wind deg</p>
+                </div>
+                <div class="element">
+                    <p class="txt" id="windspeed">wind speed</p>
+                </div>
+                <div class="element">
+                    <p class="txt" id="windgust">wind gust</p>
+                </div>
+                <div class="element">
+                    <p class="txt" id="sea">Sea level</p>
+                </div>
+                <div class="element">
+                    <p class="txt" id="grnd">Ground level</p>
+                </div>
+                <div class="element">
+                    <p class="txt" id="pressure">Pressure</p>
+                </div>
+            </section>
+
+
+
+
+
+        </section>
+
+
+
+        <section class="right">
+            <div class="search">
+                <input placeholder="Where it will rain ?" type="txtsrch" class="txtsrch" id="txtsrch">
+                <button type="submit" class="sbmtsrch" onclick="citysrch()">Go</button>
+            </div>
+            <div class="cont1">
+                <h2>Today</h2>
+                <p id="D"></p>
+            </div>
+
+
+            <div class="cont2">
+                <h1 id="temp"></h1>
+                <h2>℃</h2>
+            </div>
+
+
+            <div class="cont3">
+                <p id="city"></p>
+                <div class="feel-sun">
+                    <p id="feels"></p>
+                    <p>•</p>
+                    <p id="humidity"></p>
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
