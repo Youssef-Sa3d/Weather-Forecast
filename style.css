@@ -252,11 +252,11 @@ body {
 
 .add {
 
+    width: 145px;
+    height: 180px;
     margin: 50px 20px 50px 20px;
     cursor: pointer;
     background-color: transparent;
-    width: 145px;
-    height: 180px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
