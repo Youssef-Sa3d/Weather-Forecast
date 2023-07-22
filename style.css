@@ -43,7 +43,6 @@ body {
 
 .txtsrch {
     width: 200px;
-    /* padding: 10px; */
     border: none;
     border-radius: 20px;
     width: 300px;
@@ -92,7 +91,6 @@ body {
 }
 
 .search-resp {
-    /* visibility: hidden; */
     margin: -90px 0px 100px 0px;
     display: flex;
 }
@@ -213,7 +211,6 @@ body {
 
 .cbtn {
     background-color: black;
-    /* background-image: url(cairo.jpg); */
     background-size: cover;
     width: 145px;
     height: 180px;
@@ -280,7 +277,6 @@ body {
     margin-top: -45px;
     border-radius: 10px;
     box-shadow: -11.5px 8px 27px -3px #757474;
-    /* transition: .9s ease; */
 }
 
 .txtadd {
@@ -309,7 +305,6 @@ body {
     text-align: center;
     border: none;
     cursor: pointer;
-    /* transition: .9s ease; */
 
 }
 
@@ -337,15 +332,12 @@ body {
 /*-------------------------------------*/
 
 .details {
-    /* background-color: black; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
     height: 100%;
     width: 100%;
-    padding: 10px 50px 10px 110px;
 }
 
 .element {
@@ -357,7 +349,6 @@ body {
     text-align: center;
     width: 175px;
     height: 60px;
-    /* padding: 20px; */
     margin: 10px 15px;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
@@ -366,42 +357,4 @@ body {
     box-shadow: -11.5px 8px 27px -3px #757474;
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1024px) {
-    
-
-    
 }
